@@ -89,7 +89,7 @@ errorMessage: "User: arn:aws:iam::759553606703:user/VictimUser is not authorized
 
 | Evidence | Description |
 |---|---|
-| `cloudwatch-alarm.png` | CloudWatch SecretAccessAlarmx1 configuration |
+| (screenshots/cloudwatch-alarm.png) | CloudWatch SecretAccessAlarmx1 configuration |
 | `eventbridge-rule.png` | SensitiveAccessRule with two targets (SNS + Lambda) |
 | `sns-email-flow2.png` | Email notification received from Flow 2 (EventBridge) |
 | `iam-victimuser-zero-policies.png` | IAM console showing VictimUser with zero attached policies |
