@@ -85,7 +85,18 @@ errorMessage: "User: arn:aws:iam::759553606703:user/VictimUser is not authorized
 ```
 
 -----
+## Key Evidence
 
+| Evidence | Description |
+|---|---|
+| `cloudwatch-alarm.png` | CloudWatch SecretAccessAlarmx1 configuration |
+| `eventbridge-rule.png` | SensitiveAccessRule with two targets (SNS + Lambda) |
+| `sns-email-flow2.png` | Email notification received from Flow 2 (EventBridge) |
+| `iam-victimuser-zero-policies.png` | IAM console showing VictimUser with zero attached policies |
+| `cloudtrail-accessdenied.png` | CloudTrail log showing AccessDenied on second command |
+| `lambda-logs.png` | Lambda CloudWatch logs showing permissions stripped |
+
+*Screenshots are included in the `/screenshots` folder.*
 ## Screenshots
 
 **CloudWatch Alarm**  
@@ -106,8 +117,6 @@ errorMessage: "User: arn:aws:iam::759553606703:user/VictimUser is not authorized
 **Lambda Logs**  
 ![Lambda Logs](screenshots/lambda-logs.png)
 
-
-*Screenshots are included in the `/screenshots` folder.*
 
 -----
 
