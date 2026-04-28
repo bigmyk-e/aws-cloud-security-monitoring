@@ -88,14 +88,24 @@ errorMessage: "User: arn:aws:iam::759553606703:user/VictimUser is not authorized
 
 ## Screenshots
 
-|Evidence                          |Description                                               |
-|----------------------------------|----------------------------------------------------------|
-|`cloudwatch-alarm.png`            |CloudWatch SecretAccessAlarmx1 configuration              |
-|`eventbridge-rule.png`            |SensitiveAccessRule with two targets (SNS + Lambda)       |
-|`sns-email-flow2.png`             |Email notification received from Flow 2 (EventBridge)     |
-|`iam-victimuser-zero-policies.png`|IAM console showing VictimUser with zero attached policies|
-|`cloudtrail-accessdenied.png`     |CloudTrail log showing AccessDenied on second command     |
-|`lambda-logs.png`                 |Lambda CloudWatch logs showing permissions stripped       |
+**CloudWatch Alarm**  
+![CloudWatch Alarm](screenshots/cloudwatch-alarm.png)
+
+**EventBridge Rule**  
+![EventBridge Rule](screenshots/eventbridge-rule.png)
+
+**SNS Email Alert**  
+![SNS Email](screenshots/sns-email-flow2.png)
+
+**IAM — Zero Policies**  
+![IAM VictimUser](screenshots/iam-victimuser-zero-policies.png)
+
+**CloudTrail — AccessDenied**  
+![CloudTrail AccessDenied](screenshots/cloudtrail-accessdenied.png)
+
+**Lambda Logs**  
+![Lambda Logs](screenshots/lambda-logs.png)
+
 
 *Screenshots are included in the `/screenshots` folder.*
 
