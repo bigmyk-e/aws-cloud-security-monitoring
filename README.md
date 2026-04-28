@@ -147,4 +147,4 @@ The complete forensic report (with all screenshots and evidence) is available in
 
 -----
 
-*Part of my cybersecurity portfolio — [github.com/Bigmykeb](https://github.com/Bigmykeb)*
+*Part of my cybersecurity portfolio — [github.com/bigmyk-e](https://github.com/bigmyk-e)*
