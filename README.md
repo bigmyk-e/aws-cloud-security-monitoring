@@ -143,7 +143,7 @@ Two technical fixes that weren’t obvious at first:
 
 ## Full Report
 
-The complete forensic report (with all screenshots and evidence) is available in [`AWS-Cloud-Security-Monitoring-Report.pdf`](./AWS-Cloud-Security-Monitoring-Report.pdf).
+The complete forensic report (with all screenshots and evidence) is available in [`AWS-Cloud-Security-Monitoring-Report.pdf`](https://github.com/bigmyk-e/aws-cloud-security-monitoring/blob/main/aws-cloud-security-monitoring.pdf).
 
 -----
 
